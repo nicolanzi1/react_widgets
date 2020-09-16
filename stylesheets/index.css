@@ -17,6 +17,8 @@ span, article, footer, time, small {
     list-style: none;
 }
 
+/* Clock */
+
 .clock {
     font-size: 45px;
     color: white;
@@ -36,7 +38,31 @@ span, article, footer, time, small {
     margin: 12px;
     display: flex;
     justify-content: space-between;
-    margin-top: -13px; 
+    margin-top: -11px; 
+}
+
+/* Weather */
+
+.weather {
+    font-size: 28px;
+    width:550px;
+    height: 94px;
+    border: 2px solid black;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 25px;
+    color: white;
+    font-size: 50px;
+}
+
+.weather p {
+    margin: -10px;
+}
+
+.loading {
+    margin-top: 10px;
 }
 
 /* Tabs */
